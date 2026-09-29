@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# 💰 MERN Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A full-stack expense tracking application built with MERN stack to manage personal finances easily.
 
-Currently, two official plugins are available:
+### ✨ Features
+- Add, Edit, Delete Expenses
+- Category-wise Tracking (Food, Travel, Shopping)
+- Monthly Expense Summary
+- Secure User Authentication
+- Responsive Design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠️ Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 
-## React Compiler
+### 🚀 How to Run Locally
+1. Clone the repo: `git clone https://github.com/Iswarya-mern-dev/expense-tracker.git`
+2. Install dependencies: `npm install`
+3. Start the app: `npm run dev`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👩‍💻 Author
+**Iswarya** - MERN Stack Developer
+GitHub: @Iswarya-mern-dev
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
